@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Task</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+    </style>
+    <!-- Sweet Alert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+        <div id="container">
+            <div id="img-div">
+            </div>
+            <div id="card">
+
+                <div id="upper">
+
+                    <button id="add-todo">Add todo</button>
+                    <div id="text">TODO</div>
+
+                </div>
+
+                <div id="lower">
+                
+                </div>
+
+            </div>
+            
+        </div>
+        <div id="pop-up" class=" abc d-none">
+                <label for="">Todo Name</label>
+                <input type="text" id="inp-1">
+
+                <label for="">Description</label>
+                <input type="text" id="inp-2">
+
+                <label for="">Select Priority</label>
+                <select name="" id="inp-3">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+
+                <button id="savebtn">Save</button>
+                <button id="cancelbtn">Cancel</button>
+        </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
